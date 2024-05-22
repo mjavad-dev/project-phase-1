@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: BYekan;
+    src: url(/assets/BYekan/BYekan+.ttf) format("ttf");
+}
+
+body {
+    font-family: BYekan;
+    background-color: #fff;
+}
