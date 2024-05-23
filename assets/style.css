@@ -2,14 +2,63 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #d0dcf6;
+    font-family: BYekan;
 }
 
 @font-face {
     font-family: BYekan;
     src: url(/assets/BYekan/BYekan+.ttf) format("ttf");
+    src: url(/assets/BYekan/BYekan+Bold.ttf) format("ttf");
 }
 
-body {
+li, a, button{
     font-family: BYekan;
-    background-color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    list-style: none;
 }
+
+.nav{
+    margin-left: auto;
+    margin-right: auto;
+    margin: 1.5rem; 
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-left: 104px; 
+    padding-right: 104px; 
+    padding-top: 1.5rem; 
+    padding-bottom: 1.5rem; 
+    height: 2.5rem; 
+    justify-content: space-between;
+}
+
+.nav__links{
+    display: flex;
+    flex-direction: row;
+    gap: 4vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav__left{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem; 
+}
+
+.svg{
+    cursor: pointer;
+    padding: 1rem; 
+    border-radius: 0.375rem; 
+    height: auto;
+    border: none;
+}
+
+.button{
+    border: none;
+}
+
