@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #d0dcf6;
+    background-color: var(--primary-on-light);
     font-family: BYekan;
 }
 
@@ -11,6 +11,18 @@
     src: url(/assets/BYekan/BYekan+.ttf) format("ttf");
     src: url(/assets/BYekan/BYekan+Bold.ttf) format("ttf");
 }
+:root {
+    --primary: #2C7EF8;
+    --primary-hover: #075CD9;
+    --primary-on-light: #EBEDEF;
+    --background-light: #EBEDEF;
+    --on-background-light: #191C1E;
+    --surface-light: #EBEDEF;
+    --success: #90F677;
+    --errors: #E63946;
+    --primary__back: #FFFFFF;
+  }
+  
 
 li, a, button{
     font-family: BYekan;
